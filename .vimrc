@@ -122,3 +122,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'mbbill/fencview'
 
 call plug#end()
+
+"copy to clipboard on mac
+":w !pbcopy
+
+"paste from clipboard on mac
+":r !pbpaste
