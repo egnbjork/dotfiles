@@ -2,7 +2,8 @@
 cmap w!! w !sudo tee > /dev/null %
 
 " Save to clipboard with cp!
-cmap cp! %!xclip -sel clip
+" cmap cp! %!xclip -sel clip
+cmap cp! :w !pbcopy<CR><CR>
 
 "enable last version
 set nocompatible
